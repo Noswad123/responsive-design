@@ -1,0 +1,115 @@
+body{
+  width:1200px;
+}
+.container{
+  display:flex;
+  background-color: grey;
+  flex-wrap: wrap;
+}
+.box{
+  height: 20px;
+  min-width: 10px;
+  margin: 0 10px;
+}
+.box:first-child{
+  margin-left: 0;
+}
+
+.box:last-child{
+  margin-right: 0;
+}
+.one{
+  background-color: blue;
+  color: white;
+  text-align: center;
+  flex: 1;
+
+}
+.two{
+
+  background-color: green;
+  color: white;
+  text-align: center;
+  flex-grow: 2;
+}
+
+.three{
+
+  background-color: blue;
+  color: white;
+  text-align: center;
+  flex-grow: 3;
+
+}
+.four{
+
+  background-color: blue;
+  color: white;
+  text-align: center;
+  flex-grow: 4;
+
+}
+.five{
+
+  background-color: blue;
+  color: white;
+  text-align: center;
+  flex-grow: 5;
+
+}
+.six{
+
+  background-color: blue;
+  color: white;
+  text-align: center;
+  flex-grow: 6;
+
+}
+.seven{
+
+  background-color: blue;
+  color: white;
+  text-align: center;
+  flex: 7;
+
+}
+.eight{
+
+  background-color: blue;
+  color: white;
+  text-align: center;
+  flex: 8;
+
+}
+.nine{
+
+  background-color: blue;
+  color: white;
+  text-align: center;
+  flex: 9;
+
+}
+.ten{
+
+  background-color: blue;
+  color: white;
+  text-align: center;
+  flex: 10;
+
+}
+.eleven{
+
+  background-color: blue;
+  color: white;
+  text-align: center;
+  flex: 11;
+
+}
+.twelve{
+
+  background-color: blue;
+  color: white;
+  text-align: center;
+  flex: 12;
+
+}

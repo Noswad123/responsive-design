@@ -1,0 +1,81 @@
+.navbar{
+
+  background-color: blue;
+}
+body{
+  width:100%;
+  min-width:300px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+}
+.row{
+  padding: 20px;
+  min-height:1px;
+  background-color: grey;
+}
+.col{
+
+  background-color: blue;
+  display: inline-block;
+  min-height:30px;
+  margin-left: 1%;
+    margin-right: 1%;
+  color:white;
+  float: left;
+  margin-top: 5px;
+  text-align: center;
+
+}
+.col:first-child{
+  margin-left:0px;
+  background-color: green;
+}
+
+.col:last-child{
+  margin-right: 0px;
+  background-color: red;
+}
+.col.one{
+  width:6.5%;
+}
+.col.two{
+  width: 15%;
+}
+.col.three{
+  width: 23.5%;
+}
+.col.four{
+  width: 32%;
+}
+.col.five{
+  width: 40.5%;
+}
+.col.six{
+  width: 49%;
+}
+.col.seven{
+  width: 57.5%;
+}
+.col.eight{
+  width: 66%;
+}
+.col.nine{
+  width: 74.5%;
+}
+.col.ten{
+  width: 83%;
+}
+.col.eleven{
+  width: 91.5%;
+}
+.col.twelve{
+  width: 100%;
+}
+@media(max-width:768px){
+
+  .col{
+    width:100% !important;
+    margin: 5px 0px 5px 0px;
+  }
+}
